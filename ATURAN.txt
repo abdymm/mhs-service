@@ -1,0 +1,20 @@
+* ATURAN *
+
+Nama Database : mahasiswaservice
+
+ini Format nya JSON...
+
+^Contoh URL : 
+http://localhost/webservicePHP/mahasiswa.php?nim=30210054
+
+^Param : 
+nim
+
+Contoh Output :
+{"mahasis":[{"mhs":{"nim":"30210054","nama":"Abdy Malik Mulky","alamat":"Jalan Sukabirus"}}]}
+
+:) (:
+
+
+
+* ATURAN * 
