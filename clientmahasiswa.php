@@ -4,7 +4,7 @@
 	{
 		$('#cari').click(function()
 		{
-			$.getJSON("http://localhost/webservicePHP/mahasiswa.php?alamat="+$('#alamat').val(),function(data)
+			$.getJSON("http://localhost/webservicePHP/mahasiswa.php?format=json&alamat="+$('#alamat').val(),function(data)
 			{
 				$.each(data.mhs.mahasis, function(i,data){
 						var nim = data.nim;
@@ -18,7 +18,7 @@
 
 		$('#carinim').click(function()
 		{
-			$.getJSON("http://localhost/webservicePHP/mahasiswa.php?nim="+$('#nim').val(),function(data)
+			$.getJSON("http://localhost/webservicePHP/mahasiswa.php?format=json&nim="+$('#nim').val(),function(data)
 			{
 			
 				$.each(data.mhs.mahasis, function(i,data){
