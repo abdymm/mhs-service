@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Oct 16, 2012 at 01:31 PM
+-- Generation Time: Oct 20, 2012 at 03:58 PM
 -- Server version: 5.5.16
 -- PHP Version: 5.3.8
 
@@ -38,7 +38,8 @@ CREATE TABLE IF NOT EXISTS `mahasiswa` (
 
 INSERT INTO `mahasiswa` (`nim`, `nama`, `alamat`) VALUES
 (30210054, 'Abdy Malik Mulky', 'Jalan Sukabirus'),
-(30210045, 'malik mulkyu', 'jalananana ');
+(30210045, 'malik mulkyu', 'jalananana '),
+(30210055, 'Wildan Putra Radila', 'Jalan Sukabirus');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
